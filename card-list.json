@@ -33,7 +33,7 @@
       }
     },
     "name": "Hektor Thenmann",
-    "type": false,
+    "type": "Wardlord",
     "cost": 0,
     "Title": "Hektor Thenmann",
     "Faction": "Astra Militarum",
@@ -47,7 +47,7 @@
     "face": {
       "front": {
         "name": "Efficiency and Excellence",
-        "type": false,
+        "type": "Stratagem",
         "cost": "2",
         "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_02_Efficiency-and-Excellence.png",
         "isHorizontal": false
@@ -75,7 +75,7 @@
       }
     },
     "name": "Tempestus Scion",
-    "type": false,
+    "type": "Troop",
     "cost": "2",
     "Title": "Tempestus Scion",
     "Faction": "Astra Militarum",
