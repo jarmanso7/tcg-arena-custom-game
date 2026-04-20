@@ -14,7 +14,7 @@
         "name": "",
         "type": "troop",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/assets/back/am.png",
+        "image": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/back/am.png",
         "isHorizontal": false
       }
     },
@@ -37,7 +37,7 @@
         "name": "",
         "type": "troop",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/assets/back/am.png",
+        "image": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/back/am.png",
         "isHorizontal": false
       }
     },
