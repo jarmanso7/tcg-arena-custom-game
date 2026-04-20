@@ -1,0 +1,86 @@
+{
+  "aquilon_servo-sentry": {
+    "id": "aquilon_servo-sentry",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aquilon Servo-Sentry",
+        "type": "Troop",
+        "cost": 0,
+        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_03_Aquilon-Servo-Sentry.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aquilon Servo-Sentry",
+    "type": "Troop",
+    "cost": 0,
+    "Title": "Aquilon Servo-Sentry",
+    "Faction": "Astra Militarum",
+    "": "",
+    "Category": "Vehicle",
+    "Rarity": "Common"
+  },
+  "hektor_thenmann": {
+    "id": "hektor-thenmann",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hektor Thenmann",
+        "type": "Warlord",
+        "cost": 0,
+        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_01_Hektor-Thenmann.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hektor Thenmann",
+    "type": false,
+    "cost": 0,
+    "Title": "Hektor Thenmann",
+    "Faction": "Astra Militarum",
+    "Category": "Wardlord",
+    "Rarity": "Legendary",
+    "": ""
+  },
+  "efficiency_and_excellence": {
+    "id": "efficiency_and_excellence",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Efficiency and Excellence",
+        "type": false,
+        "cost": "2",
+        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_02_Efficiency-and-Excellence.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Efficiency and Excellence",
+    "type": "Stratagem",
+    "cost": 0,
+    "Title": "Efficiency and Excellence",
+    "Faction": "Astra Militarum",
+    "Category": "Talent",
+    "Rarity": "",
+    "": ""
+  },
+  "tempestus_scion": {
+    "id": "tempestus_scion",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tempestus Scion",
+        "type": "Troop",
+        "cost": "2",
+        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_04_Tempestus-Scion.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tempestus Scion",
+    "type": false,
+    "cost": "2",
+    "Title": "Tempestus Scion",
+    "Faction": "Astra Militarum",
+    "Category": "Infantry",
+    "Rarity": "Rare",
+    "": ""
+  }
+}
