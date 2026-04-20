@@ -13,7 +13,18 @@
   },
   "deckBuilding": {
     "mainFilters": [],
-    "formats": []
+    "formats":  [
+      {
+        "title": "Skirmish",
+        "gameplay": "skirmish",
+        "customCategories": []
+      },
+      {
+        "title": "Classic",
+        "gameplay": "classic",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
