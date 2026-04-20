@@ -13,43 +13,25 @@
   },
   "deckBuilding": {
     "mainFilters": [],
-    "formats": [
-      {
-        "title": "Skirmish",
-        "gameplay": "skirmish",
-        "customCategories": []
-      },
-      {
-        "title": "Classic",
-        "gameplay": "classic",
-        "customCategories": []
-      }
-    ]
+    "formats": []
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "For now, only \"classic mulligan\" is available, meaning that you either drop the full hand or keep it, instead of replacing individual cards.",
+        "info": "",
         "startingHandSize": "3",
-        "drawNewHand": false,
+        "drawNewHand": true,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": true
+        "drawNewSelectedCards": false
       },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "turn_token",
+        "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
       "defaultNotes": "",
-      "tokens": [
-        {
-          "name": "turn_token",
-          "image": "https://myturn.com/wp-content/uploads/2021/02/cropped-myTurn-logo-512.png",
-          "isUnique": true,
-          "leavesAtEndOfTurn": true
-        }
-      ],
+      "tokens": [],
       "countersStartingValues": [
         "1"
       ],
@@ -66,23 +48,23 @@
         "autoPlayFromStack": {},
         "sectionsDict": {
           "troops": {
-            "title": "Battlefield (Troops go here)",
-            "isHidden": "no",
+            "title": "Troops",
+            "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "CENTER",
+            "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
             "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           },
-          "stratagems": {
-            "title": "Command Post (Stratagems go here)",
+          "Stratagems": {
+            "title": "stratagems",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
@@ -91,7 +73,7 @@
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
