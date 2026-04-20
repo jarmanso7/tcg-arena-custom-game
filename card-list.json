@@ -16,6 +16,7 @@
     "cost": 0,
     "Title": "Aquilon Servo-Sentry",
     "Faction": "Astra Militarum",
+    "": "",
     "Category": "Vehicle",
     "Rarity": "Common"
   },
@@ -37,7 +38,8 @@
     "Title": "Hektor Thenmann",
     "Faction": "Astra Militarum",
     "Category": "Wardlord",
-    "Rarity": "Legendary"
+    "Rarity": "Legendary",
+    "": ""
   },
   "efficiency_and_excellence": {
     "id": "efficiency_and_excellence",
@@ -57,7 +59,8 @@
     "Title": "Efficiency and Excellence",
     "Faction": "Astra Militarum",
     "Category": "Talent",
-    "Rarity": ""
+    "Rarity": "",
+    "": ""
   },
   "tempestus_scion": {
     "id": "tempestus_scion",
@@ -77,6 +80,7 @@
     "Title": "Tempestus Scion",
     "Faction": "Astra Militarum",
     "Category": "Infantry",
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "": ""
   }
 }
