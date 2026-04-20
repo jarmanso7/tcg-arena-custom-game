@@ -8,35 +8,46 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
-    "cardBack": ""
+    "dataUrl": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/card-list.json",
+    "cardBack": "https://cdnb.artstation.com/p/assets/images/images/063/552/103/large/diego-lopez-wf-ultramarines-cardback.jpg"
   },
   "deckBuilding": {
     "mainFilters": [],
-    "formats": []
+    "formats": [
+      {
+        "title": "Skirmish",
+        "gameplay": "skirmish",
+        "customCategories": []
+      },
+      {
+        "title": "Classic",
+        "gameplay": "classic",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "",
-        "startingHandSize": 7,
-        "drawNewHand": true,
+        "info": "For now, only \"classic mulligan\" is available, meaning that you either drop the full hand or keep it, instead of replacing individual cards.",
+        "startingHandSize": "3",
+        "drawNewHand": false,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "drawNewSelectedCards": true
       },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "",
+        "firstPlayerTokenName": "turn_token",
         "drawPerTurn": 1
       },
       "defaultNotes": "",
       "tokens": [
         {
-          "name": "Turn",
-          "image": "",
+          "name": "turn_token",
+          "image": "https://myturn.com/wp-content/uploads/2021/02/cropped-myTurn-logo-512.png",
           "isUnique": true,
-          "leavesAtEndOfTurn": false
+          "leavesAtEndOfTurn": true
         }
       ],
       "countersStartingValues": [
@@ -54,21 +65,37 @@
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
-          "Mana": {
-            "title": "Mana",
-            "isHidden": "yes",
+          "troops": {
+            "title": "Battlefield (Troops go here)",
+            "isHidden": "no",
             "height": "SMALL",
-            "alignment": "START",
+            "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ressources",
-            "enterTapped": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": true,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "showHiddenCardInHistory": false
+          },
+          "stratagems": {
+            "title": "Command Post (Stratagems go here)",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
