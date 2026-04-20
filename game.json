@@ -96,8 +96,8 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-        },
+          }
+        }
       }
     }
   }
