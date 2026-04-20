@@ -4,45 +4,27 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Aquilon Servo-Sentry",
+        "name": "",
         "type": "troop",
-        "cost": "1",
+        "cost": 0,
         "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_03_Aquilon-Servo-Sentry.png",
         "isHorizontal": false
       },
       "back": {
         "name": "",
-        "type": "troop",
-        "cost": "1",
+        "type": "",
+        "cost": 0,
         "image": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/back/am.png",
         "isHorizontal": false
       }
     },
     "name": "Aquilon Servo-Sentry",
     "type": "troop",
-    "cost": "1"
-  },
-  "tempestus-scion": {
-    "id": "tempestus-scion",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Tempestus Scion",
-        "type": "troop",
-        "cost": "2",
-        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_04_Tempestus-Scion.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "troop",
-        "cost": "2",
-        "image": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/back/am.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Tempestus Scion",
-    "type": "troop",
-    "cost": "2"
+    "cost": "1",
+    "title": "Aquilon Servo-Sentry",
+    "description": "At the end of each turn, deal 1 damage to a random enemy",
+    "category": "Vehicle",
+    "rarity": "Common",
+    "is_ephemeral": false
   }
 }
