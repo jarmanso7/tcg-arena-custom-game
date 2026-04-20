@@ -1,86 +1,104 @@
 {
-  "aquilon_servo-sentry": {
-    "id": "aquilon_servo-sentry",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Aquilon Servo-Sentry",
-        "type": "Troop",
-        "cost": 0,
-        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_03_Aquilon-Servo-Sentry.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Aquilon Servo-Sentry",
-    "type": "Troop",
-    "cost": 0,
-    "Title": "Aquilon Servo-Sentry",
-    "Faction": "Astra Militarum",
-    "": "",
-    "Category": "Vehicle",
-    "Rarity": "Common"
+  "name": "Warpforge",
+  "menuBackgroundImage": "https://www.warpforge40k.com/wp-content/uploads/2026/03/WF_ThankYou_GP.jpg",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
   },
-  "hektor_thenmann": {
-    "id": "hektor-thenmann",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Hektor Thenmann",
-        "type": "Warlord",
-        "cost": 0,
-        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_01_Hektor-Thenmann.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Hektor Thenmann",
-    "type": "Wardlord",
-    "cost": 0,
-    "Title": "Hektor Thenmann",
-    "Faction": "Astra Militarum",
-    "Category": "Wardlord",
-    "Rarity": "Legendary",
-    "": ""
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/card-list.json",
+    "cardBack": "https://cdnb.artstation.com/p/assets/images/images/063/552/103/large/diego-lopez-wf-ultramarines-cardback.jpg"
   },
-  "efficiency_and_excellence": {
-    "id": "efficiency_and_excellence",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Efficiency and Excellence",
-        "type": "Stratagem",
-        "cost": "2",
-        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_02_Efficiency-and-Excellence.png",
-        "isHorizontal": false
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": [
+      {
+        "title": "Skirmish",
+        "gameplay": "skirmish",
+        "customCategories": []
+      },
+      {
+        "title": "Classic",
+        "gameplay": "classic",
+        "customCategories": []
       }
-    },
-    "name": "Efficiency and Excellence",
-    "type": "Stratagem",
-    "cost": 0,
-    "Title": "Efficiency and Excellence",
-    "Faction": "Astra Militarum",
-    "Category": "Talent",
-    "Rarity": "",
-    "": ""
+    ]
   },
-  "tempestus_scion": {
-    "id": "tempestus_scion",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Tempestus Scion",
-        "type": "Troop",
-        "cost": "2",
-        "image": "https://www.warpforge40k.com/wp-content/gallery/militarum-tempestus-astra-militarum/Warpforge_04_Tempestus-Scion.png",
-        "isHorizontal": false
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "For now, only \"classic mulligan\" is available, meaning that you either drop the full hand or keep it, instead of replacing individual cards.",
+        "startingHandSize": "3",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "turn_token",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [
+        {
+          "name": "turn_token",
+          "image": "https://myturn.com/wp-content/uploads/2021/02/cropped-myTurn-logo-512.png",
+          "isUnique": true,
+          "leavesAtEndOfTurn": true
+        }
+      ],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": []
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "troops": {
+            "title": "Battlefield (Troops go here)",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "stratagems": {
+            "title": "Command Post (Stratagems go here)",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+        }
       }
-    },
-    "name": "Tempestus Scion",
-    "type": "Troop",
-    "cost": "2",
-    "Title": "Tempestus Scion",
-    "Faction": "Astra Militarum",
-    "Category": "Infantry",
-    "Rarity": "Rare",
-    "": ""
+    }
   }
 }
