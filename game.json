@@ -1,6 +1,6 @@
 {
   "name": "Warpforge",
-  "menuBackgroundImage": "https://www.warpforge40k.com/wp-content/uploads/2026/03/WF_ThankYou_GP.jpg",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/assets/title.jpg",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": ""
@@ -8,29 +8,18 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/jarmanso7/tcg-arena-custom-game/refs/heads/main/card-list.json",
-    "cardBack": "https://cdnb.artstation.com/p/assets/images/images/063/552/103/large/diego-lopez-wf-ultramarines-cardback.jpg"
+    "dataUrl": "",
+    "cardBack": ""
   },
   "deckBuilding": {
     "mainFilters": [],
-    "formats":  [
-      {
-        "title": "Skirmish",
-        "gameplay": "skirmish",
-        "customCategories": []
-      },
-      {
-        "title": "Classic",
-        "gameplay": "classic",
-        "customCategories": []
-      }
-    ]
+    "formats": []
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "3",
+        "startingHandSize": 7,
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -44,11 +33,13 @@
       "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [
-        "1"
+        0
       ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [],
+        "customSections": [
+          "Mana"
+        ],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
@@ -74,8 +65,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Stratagems": {
-            "title": "stratagems",
+          "stratagems": {
+            "title": "Stratagems",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
