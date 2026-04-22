@@ -8,7 +8,7 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
+    "dataUrl": "https://jarmanso7.github.io/tcg-arena-custom-game/card-list.json",
     "cardBack": ""
   },
   "deckBuilding": {
