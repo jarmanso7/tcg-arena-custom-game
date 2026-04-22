@@ -48,10 +48,7 @@
       ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [
-          "troops",
-          "stratagems"
-        ],
+        "customSections": [],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
@@ -60,40 +57,7 @@
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
-        "sectionsDict": {
-          "troops": {
-            "title": "Troops",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "stratagems": {
-            "title": "Stratagems",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          }
-        }
+        "sectionsDict": {}
       }
     },
     "skirmish": {
@@ -117,10 +81,7 @@
       ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [
-          "troops",
-          "stratagems"
-        ],
+        "customSections": [],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
@@ -129,39 +90,7 @@
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
-        "sectionsDict": {
-          "troops": {
-            "title": "Troops",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "stratagems": {
-            "title": "Stratagems",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          }
+        "sectionsDict": {}
         }
       }
     }
