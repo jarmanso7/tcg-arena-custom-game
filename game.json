@@ -1,98 +1,97 @@
 {
-  "name": "Warpforge",
-  "menuBackgroundImage": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/title.jpg",
-  "defaultRessources": {
-    "backgrounds": [],
-    "decksUrl": ""
-  },
-  "customHelp": "",
-  "cardRotation": 45,
-  "cards": {
-    "dataUrl": "https://jarmanso7.github.io/tcg-arena-custom-game/card-list.json",
-    "cardBack": ""
-  },
-  "deckBuilding": {
-    "mainFilters": [],
-    "formats": [
-      {
-        "title": "Skirmish",
-        "gameplay": "skirmish",
-        "customCategories": []
-      },
-      {
-        "title": "Classic",
-        "gameplay": "classic",
-        "customCategories": []
-      }
-    ]
-  },
-  "gameplay": {
-    "classic": {
-      "mulligan": {
-        "info": "",
-        "startingHandSize": 7,
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
-      },
-      "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
-      },
-      "defaultNotes": "",
-      "tokens": [],
-      "countersStartingValues": [
-        0
-      ],
-      "hideFacedDownCards": false,
-      "sections": {
-        "customSections": [],
-        "layout": {
-          "direction": "row",
-          "isSymetricalForOpponents": false,
-          "content": []
-        },
-        "categoriesAlreadyOnBoard": [],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
-        "sectionsDict": {}
-      }
-    },
-    "skirmish": {
-      "mulligan": {
-        "info": "",
-        "startingHandSize": 7,
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
-      },
-      "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
-      },
-      "defaultNotes": "",
-      "tokens": [],
-      "countersStartingValues": [
-        0
-      ],
-      "hideFacedDownCards": false,
-      "sections": {
-        "customSections": [],
-        "layout": {
-          "direction": "row",
-          "isSymetricalForOpponents": false,
-          "content": []
-        },
-        "categoriesAlreadyOnBoard": [],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
-        "sectionsDict": {}
-        }
-      }
-    }
-  }
+	"name": "Warpforge",
+	"menuBackgroundImage": "https://jarmanso7.github.io/tcg-arena-custom-game/assets/title.jpg",
+	"defaultRessources": {
+		"backgrounds": [],
+		"decksUrl": ""
+	},
+	"customHelp": "",
+	"cardRotation": 45,
+	"cards": {
+		"dataUrl": "https://jarmanso7.github.io/tcg-arena-custom-game/card-list.json",
+		"cardBack": ""
+	},
+	"deckBuilding": {
+		"mainFilters": [],
+		"formats": [
+			{
+				"title": "Skirmish",
+				"gameplay": "skirmish",
+				"customCategories": []
+			},
+			{
+				"title": "Classic",
+				"gameplay": "classic",
+				"customCategories": []
+			}
+		]
+	},
+	"gameplay": {
+		"classic": {
+			"mulligan": {
+				"info": "",
+				"startingHandSize": 7,
+				"drawNewHand": true,
+				"putSelectionAtBottom": false,
+				"drawNewSelectedCards": false
+			},
+			"newTurn": {
+				"drawOnStart": false,
+				"sharedTurn": false,
+				"firstPlayerTokenName": "",
+				"drawPerTurn": 1
+			},
+			"defaultNotes": "",
+			"tokens": [],
+			"countersStartingValues": [
+				0
+			],
+			"hideFacedDownCards": false,
+			"sections": {
+				"customSections": [],
+				"layout": {
+					"direction": "row",
+					"isSymetricalForOpponents": false,
+					"content": []
+				},
+				"categoriesAlreadyOnBoard": [],
+				"autoPlayFromHand": {},
+				"autoPlayFromStack": {},
+				"sectionsDict": {}
+			}
+		},
+		"skirmish": {
+			"mulligan": {
+				"info": "",
+				"startingHandSize": 7,
+				"drawNewHand": true,
+				"putSelectionAtBottom": false,
+				"drawNewSelectedCards": false
+			},
+			"newTurn": {
+				"drawOnStart": false,
+				"sharedTurn": false,
+				"firstPlayerTokenName": "",
+				"drawPerTurn": 1
+			},
+			"defaultNotes": "",
+			"tokens": [],
+			"countersStartingValues": [
+				0
+			],
+			"hideFacedDownCards": false,
+			"sections": {
+				"customSections": [],
+				"layout": {
+					"direction": "row",
+					"isSymetricalForOpponents": false,
+					"content": []
+				},
+				"categoriesAlreadyOnBoard": [],
+				"autoPlayFromHand": {},
+				"autoPlayFromStack": {},
+				"sectionsDict": {}
+			}
+		}
+	}
 }
